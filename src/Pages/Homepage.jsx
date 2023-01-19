@@ -1,9 +1,14 @@
 import React from 'react'
-import {Box,Text,Link,Image} from "@chakra-ui/react"
-import {topSlidingImage} from "../Constants"
+import { Box, Text, Link, Image } from "@chakra-ui/react"
+import { topSlidingImage } from "../components/Constants"
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-// import "@fontsource/clear-sans";
+import ProductsAndBrandsBox from "../components/ProductsAndBrandsBox"
+import {
+  health,
+} from "../components/Constants";
+import BrandsCard from "../components/BrandsCard";
+import Details from "../components/Details"
 
 const Homepage = () => {
   return (
@@ -17,7 +22,7 @@ const Homepage = () => {
             autoPlayInterval="2000"
             disableButtonsControls="true"
             disableDotsControls="true"
-            
+
           >
             {topSlidingImage.map((e, i) => (
               <Image w="100%" key={i} src={e.img} />
@@ -31,7 +36,7 @@ const Homepage = () => {
           >
             <Image
               h="100%"
-              src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/f62e9238-d4c6-4c5b-9493-2535f6f57205.png"
+              src="https://onemg.gumlet.io/a_ignore,w_480,h_200,c_fit,q_auto,f_auto/85bbe9a7-230b-4836-bff3-d5f451b426a7.png"
             />
           </Link>
         </Box>
@@ -53,8 +58,12 @@ const Homepage = () => {
 
       {/* End */}
 
+      {/* Brands and Products */}
+
+      <ProductsAndBrandsBox />
+      <BrandsCard data={health} />
+      <Details />
       
-     
     </Box>
   )
 }
