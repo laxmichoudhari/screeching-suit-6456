@@ -121,22 +121,22 @@ export const FeaturedBrands = [
   
   export const topSlidingImage = [
     {
-      img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8e66b76c-9fd0-4215-88c4-61f1800e3847.png",
+      img: "https://onemg.gumlet.io/a_ignore,w_982,h_250,c_fit,q_auto,f_auto/56f2453e-1eac-4319-8d0d-9f906d603513.png",
     },
     {
-      img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/6d13550f-4564-47f9-9e74-28ddcd6bda10.png",
+      img: "https://onemg.gumlet.io/526c5478-77f4-46ad-9b07-f93abad77139_1673846190.png?w=982&h=250&format=auto",
     },
     {
-      img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/eynhkhgh6x2z3lrfibod.png",
+      img: "https://onemg.gumlet.io/8d525ed6-ca7c-40da-9e9f-d357590df189_1673936156.png?w=982&h=250&format=auto",
     },
     {
       img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/afd16962-4fde-4fd1-9c54-e8fafd6cea9d.png"
     },
     {
-      img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/04e727da-01cf-4573-b042-39fb593ea6db.png"
+      img: "https://onemg.gumlet.io/a_ignore,w_982,h_250,c_fit,q_auto,f_auto/415a8222-0c6e-432f-8069-68a84ace061b.png"
     },
     {
-      img: "https://onemg.gumlet.io/a_ignore,w_899,h_200,c_fit,q_auto,f_auto/8e66b76c-9fd0-4215-88c4-61f1800e3847.png"
+      img: "https://onemg.gumlet.io/a_ignore,w_982,h_250,c_fit,q_auto,f_auto/1f77f908-41e9-4411-8ea0-74da45d70bd1.png"
     },
   ];
   
