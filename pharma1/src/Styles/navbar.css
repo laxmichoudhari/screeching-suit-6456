@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #f1f4f6;;
+    border-bottom: 1px solid #f1f4f6;
 }
 
 .help{
@@ -31,16 +31,18 @@
     align-items: center;
     padding-right: 250px;
     padding-left: 30px;
+    /* border: 1px solid red; */
 }
 
 .header_first_row_second_section{
     width: 30%;
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
    font-size: 15px;
    color: #212121;
+   /* border: 1px solid red; */
 }
 
 .text_inside_first_header_row{
@@ -135,7 +137,7 @@
 }
 
 .search_input{
-    width: 460px;
+    width: 600px;
     height: 25px;
     background-color:#f1f4f6 ;
     border: none;

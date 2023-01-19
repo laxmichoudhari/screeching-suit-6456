@@ -1,4 +1,7 @@
-
+import Logo from "../Images/LineTech.png"
+import Search from "../Images/search (1).png";
+// import Address from "../Images/Crosshair.png";
+import Location from "../Images/Placeholder.png";
 import "../Styles/navbar.css"
 
 
@@ -16,7 +19,7 @@ export const Navbar = () => {
 
             <div className="logo" >
 
-                <img className="logo_image" src="./Images/PHARMA1.png" alt="Logo_img"/>
+                <img className="logo_image" src={Logo} alt="Logo_img"/>
 
             </div>
 
@@ -59,19 +62,21 @@ export const Navbar = () => {
 
             <div className="city_list">
 
-                <div className="navigation_icon"><i className="fas fa-map-marker-alt"></i></div>
+                <div className="navigation_icon">
+                    <img src={Location} alt="location" />
+                </div>
 
                 <input type="text" className="cities_input" placeholder="Enter your city"/>
 
-                <div className="locator_icon"></div>
+                
 
             </div>
 
             <div className="search_box">
                 
                 <input type="text" className="search_input" placeholder="Search for Medicines and Health Products" id="search_input" />
-               
-                <span className="navigation_icon"><i className="fa fa-search"></i></span>
+                <img src={Search} alt="" style={{cursor:"pointer",background:"white", height:"20px",paddingTop:"9px", paddingLeft:"5px"}}/>
+                {/* <span className="navigation_icon"><i className="fa fa-search"></i></span> */}
             
             </div>
        
