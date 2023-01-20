@@ -1,7 +1,7 @@
 export const FeaturedBrands = [
     {
-      title: "Baidyanath(Nagpur)",
-      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/d6f04684-ecaf-454b-a11e-360abf4ff603.jpeg",
+      title: "Dabur",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/869f189f-c30c-4888-beaf-e86868c4bf47.png",
     },
     {
       title: "Veet",
@@ -41,6 +41,49 @@ export const FeaturedBrands = [
     },
   ];
   
+  export const WinterCare = [
+    {
+      title: "Body and skin care",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/02f7dc4a-6b69-424e-b7d9-e2c53f154aca.png",
+    },
+    {
+      title: "Veet",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/xo0ots8fv2ylazjd2ovb.png",
+    },
+    {
+      title: "Nivea",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/dbcf099c-fcc2-4c84-abd9-df54e069364c.png",
+    },
+    {
+      title: "Contour",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/49228ade-73dc-420e-8c66-5a9e4c521b2b.png",
+    },
+    {
+      title: "Hansaplast",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/45215aa0-e0a5-40ef-9a0c-e46103e4a371.png",
+    },
+    {
+      title: "Cough , cold and favour",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/77c68bdd-3418-440b-853c-70e6c4862ccb.png",
+    },
+    {
+      title: "Durex",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/x4t7t0lyryd2cx9qsr0j.png",
+    },
+    {
+      title: "Organic India",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/b62gq72fszjy0vqkavsq.png",
+    },
+    {
+      title: "Stayfree",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/539a1389-b988-43fb-b8c7-d7ecd926144e.png",
+    },
+    {
+      title: "Dr vaidyad's",
+      img: "https://onemg.gumlet.io/a_ignore,w_150,h_150,c_fit,q_auto,f_auto/jk8ruwbfjbg17qteedfc.png",
+    },
+  ];
+
   export const popularCats = [
     {
       title: "Diabetes Care",
@@ -180,6 +223,135 @@ export const FeaturedBrands = [
     {
       link: "https://www.1mg.com/otc/lakanto-monkfruit-sweetener-with-erythritol-classic-white-sugar-replacement-granules-otc704818",
       img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jadahxgbfiupbmy8sxve.jpg",
+      name: "Lakanto Monkfruit Sweetener with Erythritol Classic White Sugar Replacement Granules",
+      qty: "Packet of 200 gm Grenules",
+      strikePrice: "525",
+      discount: "7% off",
+      price: "488",
+    },
+    {
+      link: "https://www.1mg.com/otc/sugar-free-natura-low-calorie-sweetener-pellets-otc154589",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/d8wetugtajdasve7gg0u.jpg",
+      name: "Sugar Free Natura Low Calorie Sweetener Pellets",
+      qty: "bottle of 500 Patels",
+      strikePrice: "300",
+      discount: "12% off",
+      price: "264",
+    },
+    {
+      link: "https://www.1mg.com/otc/zindagi-stevia-tablet-otc527874",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/tqblkrwqqefunrkiut4r.jpg",
+      name: "BZindagi Stevia Tablet",
+      qty: "Bottels of 100 Tablets",
+      strikePrice: "185",
+      discount: "9% off",
+      price: "149",
+    },
+    {
+      link: "https://www.1mg.com/otc/pain-relief-combo-of-dr-ortho-oil-120ml-and-organic-india-turmeric-formula-60-veg-capsule-otc614464",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/oexechydeypou9aw45xc.jpg",
+      name: "Pain Relief Combo of Dr Ortho Oil 120ml and Organic India Turmeric Formula 60 Veg Capsule",
+      qty: "Combo Pack of 2 Bottols",
+      strikePrice: "580",
+      discount: "4% off",
+      price: "564",
+    },
+    {
+      link: "https://www.1mg.com/otc/oral-care-combo-of-listerine-mouth-wash-cool-mint-500ml-and-sensodyne-repair-protect-toothpaste-100gm-otc614416",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/g6phmkjrdbw3x4nngxlr.jpg",
+      name: "Oral Care Combo of Listerine Mouth Wash Cool Mint 500ml and Sensodyne Repair & Protect Toothpaste 100gm",
+      qty: "Combo Pack Of 2 packs",
+      strikePrice: "535",
+      discount: "9% off",
+      price: "487",
+    },
+    {
+      link: "https://www.1mg.com/otc/combo-pack-of-neurobion-forte-tablet-30-evion-400mg-capsule-10-otc783417",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/irnrqy8yn0y6jmj35apg.jpg",
+      name: "Combo Pack of Neurobion Forte Tablet (30) & Evion 400mg Capsule (10)",
+      qty: "Combo Pack Of 2 Strips",
+      strikePrice: "74",
+      discount: "12% off",
+      price: "65",
+    },
+    {
+      link: "https://www.1mg.com/otc/revital-combo-pack-of-revital-h-30-capsule-and-revital-h-woman-30-tablet-otc618300",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hkivk33molknvlppjtkg.jpg",
+      name: "Revital Combo Pack of Revital H 30 Capsule and Revital H Woman 30 Tablet",
+      qty: "Combo Pack Of 2 packs",
+      strikePrice: "760",
+      discount: "12% off",
+      price: "585",
+    },
+    {
+      link: "https://www.1mg.com/otc/bayer-combo-pack-of-supradyn-daily-multivitamin-15-tablet-saridon-10-tablet-otc681220",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ylfuylfxrh0cvzrxopf3.jpg",
+      name: "Bayer Combo Pack of Supradyn Daily Multivitamin 15 Tablet & Saridon 10 Tablet",
+      qty: "Combo Pack Of 2 Strips",
+      strikePrice: "97",
+      discount: "7% off",
+      price: "89",
+    },
+    {
+      link: "https://www.1mg.com/otc/combo-pack-of-zincovit-tablet-limcee-chewable-tablet-orange-15-each-otc783384",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/qehyx880yecto35fwmen.jpg",
+      name: "Combo Pack of Zincovit Tablet & Limcee Chewable Tablet Orange (15 Each)",
+      qty: "Combo Pack Of 2 Strips",
+      strikePrice: "130",
+      discount: "14% off",
+      price: "112",
+    },
+    {
+      link: "https://www.1mg.com/otc/combo-pack-of-cipcal-500-tablet-15-evion-400mg-capsule-10-otc783438",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ei8hx4oab3o7oqvyoozi.jpg",
+      name: "Combo Pack of Cipcal 500 Tablet (15) & Evion 400mg Capsule (10)",
+      qty: "Combo Pack Of 2 Strips",
+      strikePrice: "122",
+      discount: "24% off",
+      price: "89",
+    },
+  ];
+
+  export const SpotLight = [
+    {
+      link: "https://www.1mg.com/otc/sugar-free-gold-low-calorie-sweetener-otc131475",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/jadahxgbfiupbmy8sxve.jpg",
+      name: "Sugar Free Gold Low Calorie Sweetener",
+      qty: "bottle of 500 Pllets",
+      strikePrice: "285",
+      discount: "12% off",
+      price: "249",
+    },
+    {
+      link: "https://www.1mg.com/otc/so-sweet-stevia-sugar-free-tablet-otc337806",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/fud0ky8qdz1mupsc58ze.jpg",
+      name: "So Sweet Stevia Sugar Free Tablet",
+      qty: "Packet of 100 Tablets",
+      strikePrice: "120",
+      discount: "2% off",
+      price: "117",
+    },
+    {
+      link: "https://www.1mg.com/otc/so-sweet-xylitol-powder-natural-sweetener-otc337812",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/kuhv7g7ouhb8jwhvsgmk.jpg",
+      name: "So Sweet Xylitol Powder Natural Sweetener",
+      qty: "Packet of 250 gm Pouch",
+      strikePrice: "350",
+      discount: "7% off",
+      price: "324",
+    },
+    {
+      link: "https://www.1mg.com/otc/alma-combo-pack-of-sugarfree-650-tablet-and-stevia-175-tablet-low-calorie-sweetener-otc528269",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/lybhdtfz2jccygh5lgpw.jpg",
+      name: "Alma Combo Pack of Sugarfree 650 Tablet and Stevia 175 Tablet Low Calorie Sweetener",
+      qty: "Combo Pack Of 2 Bottols",
+      strikePrice: "975",
+      discount: "13% off",
+      price: "849",
+    },
+    {
+      link: "https://www.1mg.com/otc/lakanto-monkfruit-sweetener-with-erythritol-classic-white-sugar-replacement-granules-otc704818",
+      img: "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/bpgstknem0udqzp9p4dm.jpg",
       name: "Lakanto Monkfruit Sweetener with Erythritol Classic White Sugar Replacement Granules",
       qty: "Packet of 200 gm Grenules",
       strikePrice: "525",
